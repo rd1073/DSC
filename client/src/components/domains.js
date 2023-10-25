@@ -5,7 +5,7 @@ import '../components/domains.css'; // Create a CSS file for styling
 const Domains = () => {
   return (
     <div className="domains-container">
-      <h1 className="domains-title">Our Domains</h1>
+      <h1 className="domains-title">OUR DOMAINS</h1>
 <div className="domain-card">
       <div className="domain-card1">
       <div className="domain-box">
@@ -22,7 +22,7 @@ const Domains = () => {
       <div className="domain-card3">
       <div className="domain-box">
        <h1>CREATIVE</h1>
-        <p>"Where imagination meets expression, creativity knows no bounds."</p></div>
+        <p>"Where imagination meets expression-creativity knows no bounds."</p></div>
       </div>
 
       <div className="domain-card4">

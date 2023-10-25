@@ -5,6 +5,8 @@
     justify-content: center;
     margin-top:-1200px;
     margin-left:20rem;
+    font-family: 'Roca';
+
    }
   
   .faculty-title {
@@ -13,7 +15,11 @@
     align-items: center;
     margin-top: 210px;;
     font-size: 3.5rem; /* Adjust title font size */
+    font-family: 'Roca';
+
   }
+
+
 
   .fatext-container {
     display: flex;
@@ -27,7 +33,13 @@
     padding: 10px; /* Adjust the padding as needed */
     text-align: center;
     font-size: 3.1rem; /* Adjust title font size */
+    font-family: 'Tw';
+    font-weight: bold 16px;
+  }
 
+  .fatext-left h1{
+      /* Adjust title font size */
+    font-family: 'Roca';
   }
   
   .image-right {

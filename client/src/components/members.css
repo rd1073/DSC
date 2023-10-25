@@ -9,8 +9,9 @@
 
  
   .members-title {
-    font-size: 90px;
+    font-size: 120px;
     margin-bottom: 90px;
+    font-family: 'Roca';
   }
 
   
@@ -40,7 +41,7 @@
 
 
   .member-box:nth-child(1) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/abinav.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
@@ -57,7 +58,7 @@
   }
   
   .member-box:nth-child(3) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/tejasree.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
@@ -65,7 +66,7 @@
   }
   
   .member-box:nth-child(4) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/haripriya.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
@@ -73,65 +74,113 @@
   }
 
   .member-box:nth-child(5) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/utkarsh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(6) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/shraddha.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(7) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/vikram.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(8) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/varenya.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(9) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/tarunsai.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(10) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/kaveri.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(11) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/kenisha.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(12) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/kaviya.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(13) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/varunn.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }.member-box:nth-child(14) {
-    background-image:url('../assets/rd.jpg');
+    background-image:url('../assets/harivatsa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(15) {
+    background-image:url('../assets/venkatesh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(16) {
+    background-image:url('../assets/pragya.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(17) {
+    background-image:url('../assets/empty.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(18) {
+    background-image:url('../assets/empty.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
     width:400px; /* Background color for the fourth box */
   }
-  
+  .member-box:nth-child(19) {
+    background-image:url('../assets/dania.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(20) {
+    background-image:url('../assets/vindhya.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(21) {
+    background-image:url('../assets/ananya.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(22) {
+    background-image:url('../assets/praneeth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }
   

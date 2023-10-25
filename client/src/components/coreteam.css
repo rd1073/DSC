@@ -41,7 +41,7 @@
   .sathvik {
     display: inline-block;
      text-align: center;
-     background-image: url('../assets/tharun.jpg');
+     background-image: url('../assets/empty.jpg');
 
     background-size:cover;
     height:450px;
@@ -56,7 +56,7 @@
   }.amulya {
     display: inline-block;
      text-align: center;
-     background-image: url('../assets/tharun.jpg');
+     background-image: url('../assets/amulya.jpg');
 
     background-size:cover;
     height:450px;
@@ -71,7 +71,7 @@
   }.syed {
     display: inline-block;
      text-align: center;
-     background-image: url('../assets/tharun.jpg');
+     background-image: url('../assets/syed.jpg');
 
     background-size:cover;
     height:450px;
@@ -87,7 +87,7 @@
   .mahendraverma{
     display: inline-block;
      text-align: center;
-     background-image: url('../assets/tharun.jpg');
+     background-image: url('../assets/empty.jpg');
 
     background-size:cover;
     height:450px;
@@ -102,7 +102,7 @@
   }.harshini {
     display: inline-block;
      text-align: center;
-     background-image: url('../assets/tharun.jpg');
+     background-image: url('../assets/harshini.jpg');
 
     background-size:cover;
     height:450px;
@@ -132,6 +132,7 @@
   .core-card h1 {
     font-size:39px;
     margin-top:500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
   }
   
@@ -140,6 +141,7 @@
     margin-top:-20px;
     padding:20px;
     padding-bottom:40px;
+    font-family: 'Sm';
  
   }
   

@@ -13,35 +13,35 @@ const Coreteam = () => {
       <div className="tharun">
       <div className="core-box">
        <h1>THARUN ANAND</h1>
-        <p>TECHINICAL LEAD"</p></div>
+        <p>TECHINICAL HEAD</p></div>
       </div>
 
       <div className="sathvik">
       <div className="core-box">
        <h1>SATHVIK NATARAJAN</h1>
-        <p>CORPORATE LEAD</p></div>
+        <p>CORPORATE HEAD</p></div>
       </div>
 
       <div className="amulya">
       <div className="core-box">
        <h1>AMULYA GRACE</h1>
-        <p>CREATIVE LEAD</p></div>
+        <p>CREATIVES HEAD</p></div>
       </div>
       </div>
 <div className="bottomthree">
       <div className="syed">
         <div className="core-box">
-       <h1>CONTENT</h1>
-        <p>CREATIVE LEAD</p></div>
+       <h1>SYED ADNANS</h1>
+        <p>CREATIVE HEAD</p></div>
       </div>
       <div className="mahendraverma">
         <div className="core-box">
-       <h1>MAHENDRAVERMAA</h1>
-        <p>"CONTENT LEAD</p></div>
+       <h1>MAHENDRAVARMAA</h1>
+        <p>CONTENT HEAD</p></div>
       </div><div className="harshini">
         <div className="core-box">
        <h1>HARSHINI</h1>
-        <p>SECRETARU</p></div></div>
+        <p>SECRETARY</p></div></div>
       </div>
        <p></p>
        <p></p>

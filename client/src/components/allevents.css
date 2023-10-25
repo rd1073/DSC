@@ -8,16 +8,20 @@
   }
   
   .imagee {
-    margin: 20px; /* Adjust spacing between items */
+    margin: 40px; /* Adjust spacing between items */
   }
 
   .imagee h1{
-    font-size: 4rem;
+    font-size: 7rem;
     margin-left:2rem;
+    font-family: 'Roca';
+     
   }
 
   .imagee p{
-    font-size: 3rem;;
+    font-size: 4rem;
+    font-weight:bold 16px;
+    text-align: center;
   }
   
   .event-image {
