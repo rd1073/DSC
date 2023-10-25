@@ -4,8 +4,7 @@ import About from "../components/about";
 import Domains from "../components/domains";
 import Footer from "../components/footer";
 import Teamtext from "../components/t3";
-import Right from "../components/right";
-import FacultyCoordinator from "../components/faculty";
+ import FacultyCoordinator from "../components/faculty";
 import Coreteam from "../components/coreteam";
 import Members from "../components/members";
 
@@ -16,8 +15,73 @@ function Team() {
     <div className="Home" >
       <Logo />
       <Teamtext />
-      <Right />
-      <FacultyCoordinator />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+       <FacultyCoordinator />
       <Coreteam />
       <Members />
       <br />

@@ -87,7 +87,7 @@
   .mahendraverma{
     display: inline-block;
      text-align: center;
-     background-image: url('../assets/empty.jpg');
+     background-image: url('../assets/tharun.jpg');
 
     background-size:cover;
     height:450px;
@@ -145,3 +145,56 @@
  
   }
   
+
+  /* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .core-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 200px;
+  }
+
+  .core-title {
+    font-size: 60px; /* Decrease the title font size for smaller screens */
+    margin-bottom: 60px; /* Decrease the margin for smaller screens */
+  }
+
+  .topthree,
+  .bottomthree {
+    display: block; /* Display team members one below the other for smaller screens */
+    margin-top: 10px; /* Adjust the margin for smaller screens */
+    margin-left: 0; /* Remove margin for smaller screens */
+  }
+
+  .tharun,
+  .sathvik,
+  .amulya,
+  .syed,
+  .mahendraverma,
+  .harshini {
+    width: 100%; /* Make team members occupy full width for smaller screens */
+    height: auto; /* Let the height adjust automatically */
+    text-align: center;
+    background-size: cover;
+    border-radius: 20px; /* Adjust the value for smaller screens */
+    margin-left: 0; /* Remove margin for smaller screens */
+    margin-right: 0; /* Remove margin for smaller screens */
+  }
+
+  .core-box {
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    padding-right: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .core-card h1 {
+    font-size: 26px; /* Decrease the font size for team member names */
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .core-card p {
+    font-size: 28px; /* Decrease the font size for team member descriptions */
+    margin-top: -10px; /* Adjust margin for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+    padding-bottom: 20px; /* Adjust padding for smaller screens */
+  }
+}

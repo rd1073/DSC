@@ -1,6 +1,5 @@
 .about-container {
     position: relative;
-    background-color: antiquewhite; /* Replace with your image path */
     color:black; /* Set text color to white */
     text-align: center;
     overflow: hidden; /* Hide overflowing content */
@@ -29,3 +28,31 @@
     top:-100px;
   }
   
+
+/* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+      border-radius: 0; /* Remove border-radius for smaller screens */
+  }
+  
+  .about-title {
+      font-size: 2.5rem; /* Decrease the title font size */
+  }
+  
+  .about-body {
+      font-size: 2rem; /* Decrease the body text font size */
+      margin-top: 10px; /* Adjust the margin as needed */
+  }
+}
+
+/* Apply additional responsive styles for even smaller screens if needed */
+@media (max-width: 480px) {
+  .about-title {
+      font-size: 2rem; /* Further decrease the title font size */
+  }
+  
+  .about-body {
+      font-size: 1.8rem; /* Further decrease the body text font size */
+      margin-top: 5px; /* Further adjust the margin as needed */
+  }
+}

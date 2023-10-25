@@ -20,7 +20,7 @@ const Footer = () => {
         <a href="https://instagram.com/dsc_dsbs?igshid=OGQ5ZDc2ODk2ZA==">
 
         <FaInstagram /></a>
-        <a href="https://github.com/rd1073">
+        <a href="https://github.com/rd1073/DSC">
 
         <FaGithub /></a>
         <a href="https://www.linkedin.com/company/the-data-science-club-srmist/">

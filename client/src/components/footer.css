@@ -28,5 +28,47 @@
     margin-right:30px;
     
   }
-  
+
+
+/* Apply responsive styles for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+ 
+
+  .footer-left {
+    font-size: 20px; /* Adjust font size for smaller screens */
+   }
+
+  .footer-right {
+    font-size: 15px; /* Adjust font size for smaller screens */
+  }
+
+  .social-icons {
+    font-size: 16px; /* Adjust font size for smaller screens */
+   }
+}
+
+/* Apply responsive styles for screens with a maximum width of 468px */
+@media (max-width: 468px) {
+   
+
+  .footer-left {
+    font-size: 20px;
+    margin-right: 50px; /* Adjust the margin for smaller screens */
+    /* Adjust font size for smaller screens */
+   }
+
+  .footer-right {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .footer-right h1{
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+
+  .social-icons {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin-right: 50px; /* Adjust the margin for smaller screens */
+  }
+}
    

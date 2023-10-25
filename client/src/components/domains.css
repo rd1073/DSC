@@ -103,3 +103,40 @@
  
   }
   
+  /* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .domains-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0; /* Remove the negative margin for smaller screens */
+  }
+
+  .domains-title {
+    font-size: 4rem; /* Decrease the title font size for smaller screens */
+    margin-bottom: 30px; /* Decrease the margin for smaller screens */
+  }
+
+  .domain-card1,
+  .domain-card2,
+  .domain-card3,
+  .domain-card4 {
+    width: 100%; /* Make domain cards occupy full width for smaller screens */
+    height: auto; /* Let the height adjust automatically */
+    text-align: center;
+    background-size: cover;
+    border-radius: 20px; /* Adjust the value for smaller screens */
+    margin: 10px 0; /* Adjust margin for smaller screens */
+  }
+
+  .domain-card h1 {
+    font-size: 2rem; /* Decrease the font size for domain card titles */
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .domain-card p {
+    font-size: 2rem; /* Decrease the font size for domain card descriptions */
+    margin-top: 10px; /* Adjust margin for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+    padding-bottom: 20px; /* Adjust padding for smaller screens */
+  }
+}

@@ -1,63 +1,88 @@
 .faculty-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top:-1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roca';
+  margin-top:-1200px;
     margin-left:20rem;
-    font-family: 'Roca';
+}
 
-   }
-  
-  .faculty-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 210px;;
-    font-size: 3.5rem; /* Adjust title font size */
-    font-family: 'Roca';
+.faculty-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; /* Decrease the top margin for smaller screens */
+  font-size: 3.5rem; /* Decrease title font size for smaller screens */
+  font-family: 'Roca';
+}
 
+.fatext-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.fatext-left {
+  flex: 1; /* Adjust the layout as needed */
+  padding: 10px; /* Adjust the padding as needed */
+  text-align: center;
+  font-size: 2.7rem; /* Decrease font size for text content */
+  font-weight: bold; /* Adjust font weight */
+}
+
+.fatext-left h1 {
+  /* Adjust title font size */
+  font-family: 'Roca';
+}
+
+.image-right {
+  flex: 1; /* Adjust the layout as needed */
+  margin-left:600px;
+  /* Adjust margin */
+}
+
+.image-right img {
+   /* Ensure the image doesn't exceed its container */
+  max-width: 100%; /* Adjust the maximum width of the image */
+   background-color: blanchedalmond;
+  border-radius: 50px;
+  width: auto; /* Ensure the image doesn't exceed its container */
+  height: 1000px;
+}
+
+/* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .image-right {
+    display: none; /* Hide the image on smaller screens */
   }
+}
 
 
+  
+
+/* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+  
+
+  .faculty-title {
+    margin-top: 30px; /* Decrease the top margin for smaller screens */
+    font-size: 2.5rem; /* Decrease title font size for smaller screens */
+  }
 
   .fatext-container {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    padding: 20px;
+    flex-direction: column; /* Stack text and image vertically for smaller screens */
+    align-items: center;
   }
-  
+
   .fatext-left {
-    flex: 1; /* Adjust the layout as needed */
-    padding: 10px; /* Adjust the padding as needed */
     text-align: center;
-    font-size: 3.1rem; /* Adjust title font size */
-    font-family: 'Tw';
-    font-weight: bold 16px;
+    font-size: 2.1rem; /* Decrease font size for text content */
+    font-weight: bold; /* Adjust font weight */
   }
 
-  .fatext-left h1{
-      /* Adjust title font size */
-    font-family: 'Roca';
-  }
-  
   .image-right {
-    flex: 1; /* Adjust the layout as needed */
-    margin-left:600px;
-    margin-top:-20px;
-
-     
+    display: none; /* Hide the image on smaller screens */
   }
-  
-  .image-right img {
-    width: auto; /* Ensure the image doesn't exceed its container */
-    height: 1000px;
-    background-color: blanchedalmond;
-    border-radius: 50px;
-    
-
-
-     
-  }
-  
+}

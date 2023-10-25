@@ -7,7 +7,7 @@ const FacultyCoordinator = () => {
 
         <div className="faculty-title">
 
-        <h1>Faculty Coordinator</h1>
+        <h1>FACULTY COORDINATOR</h1>
       </div>
        <div className="fatext-container">
 

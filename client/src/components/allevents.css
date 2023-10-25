@@ -1,59 +1,107 @@
 .center-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-     text-align: center;
-     margin-top:-800px;
-  }
-  
-  .imagee {
-    margin: 40px; /* Adjust spacing between items */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -800px;
+}
+
+.imagee {
+  margin: 40px;
+}
+
+.imagee h1 {
+  font-size: 7rem;
+  margin-left: 2rem;
+  font-family: 'Roca';
+}
+
+.imagee p {
+  font-size: 4rem;
+   text-align: center;
+}
+
+.event-image {
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #fff;
+}
+
+.event-image1{
+  background-image:url('../assets/teachersday.jpg');
+  background-size: cover;
+  width:1800px;
+  height:850px;
+  margin-left:50rem; /* Background color for the first box */
+}
+
+.event-image2{
+  background-image:url('../assets/talenthunt.jpg');
+  background-size: cover;
+  width:1800px;
+  height:850px;
+  margin-left:50rem; /* Background color for the first box */
+}
+
+.event-image3{
+  background-image:url('../assets/workshop.jpg');
+  background-size: cover;
+  width:1800px;
+  height:850px;
+  margin-left:50rem; /* Background color for the first box */
+}
+
+/* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .center-container {
+    margin-top: 0;
   }
 
-  .imagee h1{
-    font-size: 7rem;
-    margin-left:2rem;
-    font-family: 'Roca';
-     
+  .imagee h1 {
+    font-size: 3rem;
   }
 
-  .imagee p{
-    font-size: 4rem;
-    font-weight:bold 16px;
-    text-align: center;
+  .imagee p {
+    font-size: 1.8rem;
   }
-  
+
   .event-image {
-    align-items: center;
-    width: 200px; /* Set a width for your images (customize as needed) */
-    height: 200px; /* Set a height for your images (customize as needed) */
-    border: 2px solid #fff; /* Add a border around the image container */
-  }
-  
-
-  .event-image1{
-    background-image:url('../assets/teachersday.jpg');
-    background-size: cover;
-    width:1800px;
-    height:850px;
-    margin-left:50rem; /* Background color for the first box */
+    display: none; /* Hide the event-image div on smaller screens */
   }
 
-  .event-image2{
-    background-image:url('../assets/talenthunt.jpg');
-    background-size: cover;
-    width:1800px;
-    height:850px;
-    margin-left:50rem; /* Background color for the first box */
+  .event-image1,
+  .event-image2,
+  .event-image3 {
+    width: 100%; /* Adjust width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 0; /* Remove the margin-left for responsiveness */
+  }
+}
+
+@media (max-width: 386px) {
+  .center-container {
+    margin-top: 0;
   }
 
-  .event-image3{
-    background-image:url('../assets/workshop.jpg');
-    background-size: cover;
-    width:1800px;
-    height:850px;
-    margin-left:50rem; /* Background color for the first box */
+  .imagee h1 {
+    font-size: 3rem;
   }
-   
-  
+
+  .imagee p {
+    font-size: 1.8rem;
+  }
+
+  .event-image {
+    display: none; /* Hide the event-image div on smaller screens */
+  }
+
+  .event-image1,
+  .event-image2,
+  .event-image3 {
+    width: 100%; /* Adjust width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 0; /* Remove the margin-left for responsiveness */
+  }
+}
