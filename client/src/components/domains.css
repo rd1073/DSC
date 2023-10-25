@@ -1,0 +1,89 @@
+.domains-container {
+    text-align: center;
+    padding: 20px;
+    margin-top:-1200px;
+  }
+
+ 
+  .domains-title {
+    font-size: 90px;
+    margin-bottom: 90px;
+  }
+
+  
+
+  .domain-card1 {
+    display: inline-block;
+    width:auto;
+    height:auto;
+    text-align: center;
+    background-image: url('../assets/tech.png');
+    background-size:cover;
+    height:400px;
+    width:450px;
+    padding:20px;
+    margin-left:140px;
+    margin-right:250px;
+    
+  }
+  .domain-card2 {
+    display: inline-block;
+     text-align: center;
+     background-image: url('../assets/corporate.png');
+    background-size:cover;
+    height:400px;
+    width:450px;
+    padding:20px;
+    margin-right:250px;
+
+
+
+  }.domain-card3 {
+    display: inline-block;
+     text-align: center;
+     background-image: url('../assets/creative.png');
+    background-size:cover;
+    height:400px;
+    width:450px;
+    padding:20px;
+    margin-right:250px;
+
+
+
+  }.domain-card4 {
+    display: inline-block;
+     text-align: center;
+     background-image: url('../assets/retry.png');
+    background-size:cover;
+    height:400px;
+    width:450px;
+    padding:20px;
+    margin-right:250px;
+
+ 
+
+  }
+  
+  .domain-box {
+    background-color: antiquewhite;
+    border-radius: 20px; /* Adjust the value to control the roundness of the corners */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+
+
+  }
+  
+  .domain-card h1 {
+    font-size:50px;
+    margin-top:450px;
+ 
+  }
+  
+  .domain-card p {
+    font-size: 50px;
+    margin-top:20px;
+    padding:20px;
+    padding-bottom:40px;
+ 
+  }
+  

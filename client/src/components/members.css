@@ -1,0 +1,137 @@
+.members-container {
+    text-align: center;
+    padding: 20px;
+    margin-top:00px;
+    margin-left:200px;
+    padding-bottom:300px;
+
+  }
+
+ 
+  .members-title {
+    font-size: 90px;
+    margin-bottom: 90px;
+  }
+
+  
+ 
+  .member-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 columns */
+    gap: 200px; /* Adjust the gap between columns as needed */
+  }
+  
+  .member-box {
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a border for separation */
+    text-align: center;
+    
+  }
+
+  .member-box h1{
+    font-size:2.7rem;
+     margin-top:430px;
+  }
+
+  .member-box p{
+    font-size:2.7rem;
+    margin-top:-20px;
+   }
+
+
+  .member-box:nth-child(1) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px;
+     /* Background color for the first box */
+  }
+  
+  .member-box:nth-child(2) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the second box */
+  }
+  
+  .member-box:nth-child(3) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the third box */
+  }
+  
+  .member-box:nth-child(4) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }
+
+  .member-box:nth-child(5) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(6) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(7) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(8) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(9) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(10) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(11) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(12) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(13) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }.member-box:nth-child(14) {
+    background-image:url('../assets/rd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width:400px; /* Background color for the fourth box */
+  }
+  
+  

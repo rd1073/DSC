@@ -1,0 +1,19 @@
+.right-container {
+    display: flex;
+    justify-content: flex-end; /* Align the content to the right */
+    align-items: center;
+    padding-right: 30px;
+    transform: translateY(-1200px);
+; /* Adjust the padding to move the container away from the right edge */
+  }
+  
+  .right-image {
+    width: 1300px; /* Adjust the size of the image */
+    height: 1300px; /* Adjust the size of the image */
+    background-image: url('../assets/Screenshot_2023-10-24_201501-removebg-preview.png'); /* Replace with your image path */
+    background-size: cover;
+   }
+  
+ 
+
+  

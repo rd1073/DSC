@@ -1,0 +1,32 @@
+.footer-container {
+    border: 6px solid #191919;
+    color: black;
+    padding: 90px;
+    bottom: 0;
+    text-align: center;
+    margin-top: -100px;
+    
+  
+     
+  }
+  
+  .footer-left {
+    text-align: center;
+    font-size: 50px;
+    margin-top:-50px
+  }
+  
+  .footer-right {
+    text-align: center;
+    font-size: 30px;
+
+  }
+  
+  .social-icons {
+    font-size: 24px;
+    display:inline-block;
+    margin-right:30px;
+    
+  }
+  
+   

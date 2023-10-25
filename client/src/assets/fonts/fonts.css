@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Sm';
+    src: url('../fonts/Sometype_Mono/SometypeMono-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('../fonts/Sometype_Mono/SometypeMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'Tw';
+    src: 
+         url('../fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

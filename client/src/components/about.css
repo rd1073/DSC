@@ -1,0 +1,27 @@
+.about-container {
+    position: relative;
+    background-color: antiquewhite; /* Replace with your image path */
+    color:blue; /* Set text color to white */
+    text-align: center;
+    overflow: hidden; /* Hide overflowing content */
+    top:-1300px;
+    border-radius: 40px; /* Adjust the value to control the roundness of the corners */
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 10);
+   }
+  
+  .about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;;
+    font-size: 3.2rem;
+     /* Adjust title font size */
+  }
+  
+  .about-body {
+    justify-content: center;
+    align-items: center;
+    font-size: 2.7rem; /* Adjust body text font size */
+    top:-150px;
+  }
+  

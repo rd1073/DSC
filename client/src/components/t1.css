@@ -1,0 +1,15 @@
+.teext-container {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; 
+    margin-left:16rem;/* Vertically center the text */
+
+    }
+  
+  .teext-content {
+    font-family: 'Sm';
+
+
+     font-size: 140px; /* Adjust padding as needed */
+  }
+  

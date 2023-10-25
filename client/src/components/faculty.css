@@ -1,0 +1,51 @@
+.faculty-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:-1200px;
+    margin-left:20rem;
+   }
+  
+  .faculty-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;;
+    font-size: 3.5rem; /* Adjust title font size */
+  }
+
+  .fatext-container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .fatext-left {
+    flex: 1; /* Adjust the layout as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    text-align: center;
+    font-size: 3.1rem; /* Adjust title font size */
+
+  }
+  
+  .image-right {
+    flex: 1; /* Adjust the layout as needed */
+    margin-left:600px;
+    margin-top:-20px;
+
+     
+  }
+  
+  .image-right img {
+    width: auto; /* Ensure the image doesn't exceed its container */
+    height: 1000px;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    
+
+
+     
+  }
+  

@@ -1,0 +1,17 @@
+/* Reset margin and padding on the body and HTML elements */
+body, html {
+    margin: 0;
+    padding: 0;
+ 
+  }
+  
+  /* Set a background image and cover the entire viewport */
+  .App {
+    background-image: url('./assets/new.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+     margin: 0; /* Remove any potential margin */
+    padding: 0; /* Remove any potential padding */
+  }
+  
